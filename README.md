@@ -68,9 +68,7 @@ In which case, please go and comment/remove the lines that install torch and tor
 
 ### Inference
  
- If you want to play around with the results, use the Jupyter Notebook created `Assessment Tagger Tester.ipynb`. It has 
- comments to help you run the code.
-  
+ 
  ```python
 from biobert_ner import BioBertNER
  
