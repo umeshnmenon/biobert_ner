@@ -25,7 +25,7 @@ they used.
 ##### Setting up Virtual Environment
 [Conda](https://conda.io/) can be used set up a virtual environment with the version of Python required. 
 If you already have a Python 3.6 or 3.7 environment you want to use, you can skip to the 'installing via pip' section.
-1. [Follow the installation instruction for Conda] (https://conda.io/projects/conda/en/latest/user-guide/install/index.html?highlight=conda#regular-installation)
+1. [Follow the installation instruction for Conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html?highlight=conda#regular-installation)
 
 2. Create a virtual environment called "biobert_py36" with Python 3.6:
 ```python
@@ -56,7 +56,7 @@ Run the below command within the root folder where you have requirements.txt:
 pip install -r requirements.txt
 ```
 
-Please see [here] (https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands) for more help on Conda virtual environment creation. 
+Please see [here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands) for more help on Conda virtual environment creation. 
 
 If you run into issues while installing related to pytorch, please visit this site and choose your right system configuration/requirement
 and run the command given by them to install `torch` and `torchvision`. For e.g. to install a Non CUDA version on a Windows 
