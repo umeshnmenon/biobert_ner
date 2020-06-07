@@ -1,6 +1,6 @@
 # BioBert NER
 
-This package helps to do NER using BioBERT (or any BERT model). There wasn't many packages available to use the BERT 
+This package helps to do NER using BioBERT (or any BERT model). There wasn't any package available to use the BERT 
 models in your module as an api. This is a quick fix work. What I meant by is that I have used the same set of files that 
 are provided by the BioBert [repo](https://github.com/dmis-lab/biobert) and just added a facade to it. I could have avoided the use of storing to temp files and 
 reading it again for processing by just keeping them in memory but my need was to quickly test the BioBERT model so am 
