@@ -76,6 +76,9 @@ text = """
 This is a 14-month-old baby boy Caucasian who came in with presumptive diagnosis of Kawasaki with fever for more than 5 days and conjunctivitis, mild arthritis with edema, rash, resolving and with elevated neutrophils and thrombocytosis, elevated CRP and ESR.
 """
 
+# create the object
+ner = BioBertNER()
+
 # Get the named entities
 ents, nes = ner.predict(text)
 entities = [ne["text"] for ne in nes]
